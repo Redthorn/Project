@@ -3,7 +3,7 @@ var app = express();
 
 var jsonObj =
     {
-          "name" : "John Ryan","vacation" : 
+          "name" : "John Ryan", "vacation" : 
           {"places": ["34.40, -199.71","24.67, -78.00","53.35, -6.306"]}
     };
 
