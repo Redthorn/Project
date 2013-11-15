@@ -8,7 +8,7 @@ var jsonObj =
     };
 
 app.get('/', function(req, res){
-  res.send(jsonObj);
+  res.json(jsonObj);
 });
 
 var port = process.env.PORT || 5000;
